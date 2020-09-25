@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "5.24" 1600355986
+<REAPER_PROJECT 0.1 "5.24" 1601068446
   RIPPLE 0
   GROUPOVERRIDE 0 1 0
   AUTOXFADE 1
@@ -11,8 +11,8 @@
   MAXPROJLEN 0 600
   GRID 1151 8 1 8 1 0 0
   TIMEMODE 1 0 -1 24 2
-  CURSOR 234.19589755572676
-  ZOOM 182.38955360346804 44284 0
+  CURSOR 145.09090909090955
+  ZOOM 182.38955360346804 217 0
   VZOOMEX 0
   USE_REC_CFG 0
   RECMODE 1
@@ -123,7 +123,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.00469402571564 0 -1 -1 1
+    VOLPAN 0.0451460501536 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     ISBUS 0 0
@@ -157,7 +157,7 @@
       WAK 0
     >
     <ITEM
-      POSITION 0.90895436036459
+      POSITION 0
       SNAPOFFS 0
       LENGTH 257.20310657596372
       LOOP 1
@@ -168,14 +168,14 @@
       SEL 0
       IGUID {3348804B-47E9-4112-A660-C383D4D0D1D2}
       IID 26
-      NAME song.mp3
+      NAME song.wav
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {D55B9005-CF1B-426C-A556-2C850D91BCC0}
-      <SOURCE MP3
-        FILE "F:\Feedback 0.97b\Songs\custom songs\Asymmetrical\song.mp3" 1
+      <SOURCE WAVE
+        FILE "song.wav"
       >
     >
   >
@@ -191,7 +191,7 @@
     BUSCOMP 1 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FREEMODE 0
-    SEL 0
+    SEL 1
     REC 0 4096 1 7 0 0 0
     TRACKHEIGHT 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -4934,7 +4934,7 @@
         VELLANE 132 98 60
         COLORMAP "C:\Users\me\AppData\Roaming\REAPER\Data\color_maps\rockband_drums.png"
         TEXTSTRINGFILE "Text Events List.txt"
-        CFGEDITVIEW 234448.249213 18.133578 0 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 4045.626438 182.389554 21 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 252
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -9336,7 +9336,7 @@
     BUSCOMP 1 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 4096 1 7 0 0 0
     TRACKHEIGHT 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -9437,7 +9437,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {9C9617EC-369A-41B9-80F6-31F4222F13F6}
       IID 10
       NAME "PART VOCALS"
@@ -9639,7 +9639,7 @@
         E 0 90 47 40
         E 390 80 47 40
         <X 90 0
-          /wVjYWxs
+          /wVjYWxsIw==
         >
         E 0 90 47 40
         E 330 80 47 40
@@ -9671,7 +9671,7 @@
         E 0 90 2b 40
         E 560 80 2b 40
         <X 880 0
-          /wVhLQ==
+          /wVh
         >
         E 0 90 2f 40
         E 180 80 2f 40
@@ -9690,8 +9690,8 @@
         >
         E 0 90 2f 40
         E 240 80 2f 40
-        E 360 80 69 00
-        <X 360 0
+        E 240 80 69 00
+        <X 480 0
           /wVXZSM=
         >
         E 0 90 69 43
@@ -9741,9 +9741,9 @@
           /wVhbGwj
         >
         E 0 90 48 40
-        E 960 80 48 40
-        E 90 80 69 00
-        <X 150 0
+        E 960 80 69 00
+        E 0 80 48 40
+        <X 240 0
           /wVBLSM=
         >
         E 0 90 69 43
@@ -9789,8 +9789,8 @@
         >
         E 0 90 48 40
         E 400 80 48 40
-        E 200 80 69 00
-        <X 120 0
+        E 80 80 69 00
+        <X 240 0
           /wVhLSM=
         >
         E 0 90 69 43
@@ -9832,8 +9832,8 @@
         >
         E 0 90 46 40
         E 560 80 46 40
-        E 1600 80 69 00
-        E 0 80 74 00
+        E 160 80 69 00
+        E 1440 80 74 00
         E 450 90 69 43
         <X 30 0
           /wV3ZSdyZSM=
@@ -9870,8 +9870,8 @@
         >
         E 0 90 46 40
         E 560 80 46 40
-        E 100 80 69 00
-        E 510 90 69 43
+        E 40 80 69 00
+        E 570 90 69 43
         <X 30 0
           /wVsb2NrZWQj
         >
@@ -9902,8 +9902,8 @@
         >
         E 0 90 47 40
         E 1040 80 47 40
-        E 70 80 69 00
-        <X 90 0
+        E 40 80 69 00
+        <X 120 0
           /wVXZSM=
         >
         E 0 90 69 43
@@ -9966,10 +9966,10 @@
           /wV3ZWVrIw==
         >
         E 0 90 45 40
-        E 960 80 45 40
+        E 960 80 69 00
+        E 0 80 45 40
         E 720 80 74 40
-        E 270 80 69 00
-        <X 210 0
+        <X 480 0
           /wV3ZSM=
         >
         E 0 90 69 43
@@ -10029,9 +10029,9 @@
           /wV3ZWVrIw==
         >
         E 0 90 45 40
-        E 960 80 45 40
-        E 690 80 69 00
-        <X 510 0
+        E 960 80 69 00
+        E 0 80 45 40
+        <X 1200 0
           /wVIb3cj
         >
         E 0 90 69 43
@@ -10212,9 +10212,9 @@
           /wVjb3VudHMj
         >
         E 0 90 47 40
-        E 960 80 47 40
-        E 270 80 69 00
-        <X 690 0
+        E 960 80 69 00
+        E 0 80 47 40
+        <X 960 0
           /wV0cmEt
         >
         E 0 90 69 43
@@ -10254,9 +10254,9 @@
           /wVsaWM=
         >
         E 0 90 44 40
-        E 840 80 44 40
-        E 60 80 69 00
-        <X 60 0
+        E 840 80 69 00
+        E 0 80 44 40
+        <X 120 0
           /wV0cmEt
         >
         E 0 90 69 43
@@ -10311,9 +10311,9 @@
           /wVoYW5kcw==
         >
         E 0 90 45 40
-        E 5760 80 45 40
-        E 300 80 69 00
-        <X 9300 0
+        E 5580 80 69 00
+        E 0 80 45 40
+        <X 9780 0
           /wVXZQ==
         >
         E 0 90 69 43
@@ -10378,9 +10378,9 @@
           /wVkeQ==
         >
         E 0 90 35 40
-        E 600 80 35 40
-        E 90 80 69 00
-        <X 30 0
+        E 600 80 69 00
+        E 0 80 35 40
+        <X 120 0
           /wV3ZSM=
         >
         E 0 90 69 43
@@ -10455,9 +10455,9 @@
           /wViZSM=
         >
         E 0 90 47 40
-        E 600 80 47 40
-        E 1200 80 69 00
-        <X 3960 0
+        E 600 80 69 00
+        E 0 80 47 40
+        <X 5160 0
           /wVhLSM=
         >
         E 0 90 69 43
@@ -10532,8 +10532,8 @@
         >
         E 0 90 48 40
         E 180 80 48 40
-        <X 300 0
-          /wV0aGU=
+        <x 300 0
+          /wV0aGUj
         >
         E 0 90 48 40
         E 150 80 48 40
@@ -10664,8 +10664,8 @@
           /wV0aHJvYXQj
         >
         E 0 90 46 40
-        E 2080 80 46 40
-        <X 1280 0
+        E 1440 80 46 40
+        <X 1920 0
           /wVidXQj
         >
         E 0 90 47 40
@@ -10848,11 +10848,11 @@
         >
         E 0 90 48 40
         E 45 80 48 00
-        <x 60 0
+        <X 60 0
           /wVwYXJ0cyM=
         >
-        e 0 90 48 40
-        e 600 80 48 00
+        E 0 90 48 40
+        E 600 80 48 00
         E 45 80 69 00
         E 450 90 69 40
         <X 60 0
@@ -11787,11 +11787,11 @@
         VELLANE 132 98 60
         COLORMAP "C:\Users\me\AppData\Roaming\REAPER\Data\color_maps\rockband_vox-other.png"
         TEXTSTRINGFILE "Text Events List.txt"
-        CFGEDITVIEW 204670.616551 182.389554 48 10 0 -1 0 0 0 0.5
+        CFGEDITVIEW -282.253007 182.389554 49 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 252
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 0 0 1 1 1 1 1 1 0.03125 -8 -8 1370 736 1 0 1 3 0 0 0 0 0 0.5 1 0 1 64
+        CFGEDIT 1 1 0 0 0 1 1 1 1 1 1 0.0625 -8 -8 1370 736 1 0 1 3 0 0 0 0 0 0.5 1 0 1 64
       >
     >
   >
@@ -11904,7 +11904,7 @@
         VELLANE 132 98 60
         COLORMAP "M:\RGS Documents\ColorMaps\rockband_vox-other.png"
         TEXTSTRINGFILE "Text Events List.txt"
-        CFGEDITVIEW 283575.078755 67.588789 14 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 10732.851533 182.389554 21 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 252
         EVTFILTER 0 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
