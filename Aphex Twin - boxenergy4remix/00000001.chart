@@ -1,0 +1,28 @@
+[Song]
+{
+	Name = "2001"
+	Artist = "richard"
+	Charter = "nj3ly"
+	Offset = 13
+	Resolution = 192
+	Player2 = bass
+	Difficulty = 0
+	PreviewStart = 0.00
+	PreviewEnd = 0.00
+	Genre = "rock"
+	MediaType = "cd"
+	MusicStream = "00000001.ogg"
+}
+[SyncTrack]
+{
+	0 = B 170135
+	0 = TS 4
+	116736 = TS 3
+	117312 = TS 98
+	136128 = TS 4
+	219072 = B 1
+}
+[Events]
+{
+	0 = E "section energy"
+}
