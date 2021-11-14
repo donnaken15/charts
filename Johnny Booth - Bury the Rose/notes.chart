@@ -11,7 +11,7 @@
 	PreviewEnd = 0.00
 	Genre = "Metal"
 	MediaType = "cd"
-	MusicStream = "song.ogg"
+	MusicStream = "song.mp3"
 	MusicURL = "https://www.youtube.com/watch?v=PBIg78IN3hE"
 	PreviewURL = "https://www.youtube.com/watch?v=tEwbZxRsfl8"
 }
@@ -31,9 +31,6 @@
 	55296 = E "section Riff"
 	67584 = E "section Chorus II"
 	79872 = E "section Guitar Solo"
-	79872 = E "solo"
-	79872 = E "solo_on"
-	86016 = E "solo_off"
 	86016 = E "section Bridge"
 	98304 = E "section Bury the Rose"
 	104448 = E "section Breakdown"
@@ -1207,6 +1204,7 @@
 	79776 = N 1 0
 	79872 = N 0 0
 	79872 = S 0 6096
+	79872 = E solo
 	79968 = N 4 0
 	80064 = N 3 0
 	80160 = N 1 0
@@ -1277,6 +1275,7 @@
 	85920 = N 4 0
 	85920 = N 3 0
 	85920 = N 1 0
+	86016 = E soloend
 	86208 = N 4 0
 	86208 = N 3 0
 	86208 = N 1 0
@@ -4159,4 +4158,3 @@
 	128832 = N 1 0
 	128832 = N 2 0
 }
-

@@ -9,8 +9,8 @@
 	Difficulty = 0
 	PreviewStart = 0.00
 	PreviewEnd = 0.00
-	Genre = "rock"
-	MediaType = "cd"
+	Genre = "Electronic"
+	MediaType = "File"
 	MusicStream = "00000000.ogg"
 }
 [SyncTrack]
