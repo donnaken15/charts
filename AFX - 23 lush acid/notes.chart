@@ -11,7 +11,7 @@
 	PreviewEnd = 0.00
 	Genre = "Alternative"
 	MediaType = "Vinyl"
-	MusicStream = "acid.mp3"
+	MusicStream = "song.ogg"
 }
 [SyncTrack]
 {
