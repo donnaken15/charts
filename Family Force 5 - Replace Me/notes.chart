@@ -11,7 +11,7 @@
 	PreviewEnd = 72.39
 	Genre = "Alternative"
 	MediaType = "CD"
-	MusicStream = "song.mp3"
+	MusicStream = "song.ogg"
 	MusicURL = "https://www.youtube.com/watch?v=Y9P9GODDdVs"
 	PreviewURL = "https://www.youtube.com/watch?v=c8gSZnI8e6U"
 }
