@@ -1,4 +1,4 @@
-[Song]
+﻿[Song]
 {
 	Name = "23 lush acid"
 	Artist = "AFX"
@@ -7,16 +7,17 @@
 	Resolution = 192
 	Player2 = bass
 	Difficulty = 0
-	PreviewStart = 0.00
-	PreviewEnd = 0.00
+	PreviewStart = 0
+	PreviewEnd = 0
 	Genre = "Alternative"
 	MediaType = "Vinyl"
 	MusicStream = "song.ogg"
 }
 [SyncTrack]
 {
-	0 = B 167000
 	0 = TS 4
+	0 = B 167000
+	768 = B 167140
 }
 [Events]
 {
